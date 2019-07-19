@@ -1,4 +1,3 @@
 com\luxoft\training\spring\cloud\CardNumberGenerator.class
 com\luxoft\training\spring\cloud\CardRest.class
 com\luxoft\training\spring\cloud\CardService.class
-com\luxoft\training\spring\cloud\ResourceServerConfig.class

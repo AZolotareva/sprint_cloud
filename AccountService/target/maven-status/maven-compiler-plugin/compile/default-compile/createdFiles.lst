@@ -4,4 +4,3 @@ com\luxoft\training\spring\cloud\AccountRest.class
 com\luxoft\training\spring\cloud\Account.class
 com\luxoft\training\spring\cloud\AccountService.class
 com\luxoft\training\spring\cloud\AccountRepository.class
-com\luxoft\training\spring\cloud\ResourceServerConfig.class

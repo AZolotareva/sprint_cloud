@@ -16,7 +16,19 @@ import java.util.Map;
 @SpringBootApplication
 @RemoteApplicationEventScan
 @RestController
-public class HistoryService {
+public class HistoryService implements ApplicationListener<AbstractFinancialEvent> {
+    private Map<Date, BigDecimal> historyMap = Collections.synchronizedMap(new LinkedHashMap<Date, BigDecimal>());
+
+    @GetMapping
+    public Map<Date, BigDecimal> getHistory() {
+        return historyMap;
+    }
+
+    @Override
+    public void onApplicationEvent(AbstractFinancialEvent event) {
+        historyMap.put(new Date(event.getTimestamp()), event.getSum());
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(HistoryService.class, args);
     }

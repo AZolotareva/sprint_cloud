@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @EnableEurekaClient
 @EnableFeignClients
 @EnableHystrix
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class ProcessingService {
 
     public static void main(String[] args) {

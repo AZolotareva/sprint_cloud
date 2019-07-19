@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="history-service" />
         <module name="client-service" />
         <module name="processing-service" />
         <module name="config-server" />
@@ -14,6 +15,7 @@
         <module name="account-service" />
         <module name="eureka" />
         <module name="dashboard" />
+        <module name="common" />
         <module name="turbine-server" />
         <module name="card-service" />
         <module name="zuul" />

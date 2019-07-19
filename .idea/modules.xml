@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/AuthService/auth.iml" filepath="$PROJECT_DIR$/AuthService/auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/CardService/card-service.iml" filepath="$PROJECT_DIR$/CardService/card-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClientService/client-service.iml" filepath="$PROJECT_DIR$/ClientService/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/common.iml" filepath="$PROJECT_DIR$/Common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServer/config-server.iml" filepath="$PROJECT_DIR$/ConfigServer/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dashboard/dashboard.iml" filepath="$PROJECT_DIR$/Dashboard/dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka.iml" filepath="$PROJECT_DIR$/Eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HistoryService/history-service.iml" filepath="$PROJECT_DIR$/HistoryService/history-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProcessingService/processing-service.iml" filepath="$PROJECT_DIR$/ProcessingService/processing-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/TurbineServer/turbine-server.iml" filepath="$PROJECT_DIR$/TurbineServer/turbine-server.iml" />

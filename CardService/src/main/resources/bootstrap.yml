@@ -2,7 +2,4 @@ spring:
   application:
     name: CardService
 
-server:
-  port: 8803
-
 spring.cloud.config.uri: http://localhost:8600

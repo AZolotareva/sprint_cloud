@@ -1,9 +1,0 @@
-server:
-  port: 8701
-
-eureka:
-  client:
-    fetchRegistry: true
-    registerWithEureka: true
-    serviceUrl:
-      defaultZone: http://localhost:8702/eureka
