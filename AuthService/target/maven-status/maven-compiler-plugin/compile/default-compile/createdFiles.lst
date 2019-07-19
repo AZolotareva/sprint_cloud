@@ -1,0 +1,3 @@
+com\luxoft\training\spring\cloud\OAuth2Configuration.class
+com\luxoft\training\spring\cloud\AuthService.class
+com\luxoft\training\spring\cloud\WebSecurityConfig.class

@@ -1,0 +1,7 @@
+com\luxoft\training\spring\cloud\Client.class
+com\luxoft\training\spring\cloud\ClientEntity.class
+com\luxoft\training\spring\cloud\ClientService.class
+com\luxoft\training\spring\cloud\ClientRest.class
+com\luxoft\training\spring\cloud\ClientRepository.class
+com\luxoft\training\spring\cloud\ClientDAO.class
+com\luxoft\training\spring\cloud\ResourceServerConfig.class
