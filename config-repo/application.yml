@@ -3,4 +3,16 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://localhost:8701/eureka,http://localhost:8701/eureka
+      defaultZone: http://localhost:8701/eureka,http://localhost:8702/eureka
+
+security:
+  oauth2:
+    client:
+      clientId: client
+      clientSecret: secret
+      scope: openid
+      accessTokenUri: http://localhost:8500/uaa/oauth/token
+      userAuthorizationUri: http://localhost:8500/uaa/oauth/authorize
+    resource:
+      jwt:
+        key-uri: http://localhost:8500/uaa/oauth/token_key
