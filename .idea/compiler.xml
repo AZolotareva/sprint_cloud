@@ -6,23 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="history-service" />
-        <module name="client-service" />
-        <module name="processing-service" />
-        <module name="config-server" />
-        <module name="auth" />
-        <module name="zipkin-server" />
-        <module name="account-service" />
-        <module name="eureka" />
-        <module name="dashboard" />
-        <module name="common" />
-        <module name="turbine-server" />
-        <module name="card-service" />
-        <module name="zuul" />
+        <module name="WordNumSplitter" />
+        <module name="Publisher" />
+        <module name="Aggregator" />
+        <module name="Subscriber" />
+        <module name="Processor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-service" target="1.6" />
+      <module name="Aggregator" target="1.6" />
       <module name="auth" target="1.6" />
       <module name="card-service" target="1.6" />
       <module name="client-service" target="1.6" />
@@ -32,8 +25,12 @@
       <module name="eureka" target="1.6" />
       <module name="history-service" target="1.6" />
       <module name="processing-service" target="1.6" />
+      <module name="Processor" target="1.6" />
+      <module name="Publisher" target="1.6" />
       <module name="spring-cloud" target="1.6" />
+      <module name="Subscriber" target="1.7" />
       <module name="turbine-server" target="1.6" />
+      <module name="WordNumSplitter" target="1.6" />
       <module name="zipkin-server" target="1.6" />
       <module name="zuul" target="1.6" />
     </bytecodeTargetLevel>

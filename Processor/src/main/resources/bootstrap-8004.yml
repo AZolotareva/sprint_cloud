@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Processor
+
+server:
+  port: 8004
+
+spring.cloud.stream.bindings.words:
+  consumer:
+    instanceIndex: 1

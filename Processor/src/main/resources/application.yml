@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: WordProcessor
-
-server:
-  port: 8003

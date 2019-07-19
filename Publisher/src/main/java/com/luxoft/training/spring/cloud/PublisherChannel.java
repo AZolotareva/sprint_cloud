@@ -3,9 +3,9 @@ package com.luxoft.training.spring.cloud;
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
 
-public interface TestChannel {
-    String CHANNEL_NAME = "testChannel";
+public interface PublisherChannel {
+    String WORDS = "words";
 
-    @Output(CHANNEL_NAME)
-    MessageChannel output();
+    @Output(WORDS)
+    MessageChannel words();
 }

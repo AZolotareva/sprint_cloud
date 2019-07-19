@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: WordNumSplitter
+
+server:
+  port: 8006
+
+spring.cloud.stream.bindings.words:
+  consumer:
+    instanceIndex: 1

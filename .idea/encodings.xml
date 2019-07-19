@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AccountService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Aggregator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AuthService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CardService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ClientService" charset="UTF-8" />
@@ -12,7 +13,11 @@
     <file url="file://$PROJECT_DIR$/Eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HistoryService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ProcessingService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Processor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Publisher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Subscriber" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TurbineServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WordNumSplitter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZipkinServer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Zuul" charset="UTF-8" />
   </component>

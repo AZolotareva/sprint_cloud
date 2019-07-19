@@ -4,3 +4,12 @@ spring:
   cloud:
     config:
       uri: http://localhost:8600
+
+server:
+  port: 7777
+
+spring.cloud.stream.bindings.words:
+  destination: wordNumSplit
+  producer:
+    partitionKeyExpression: payload
+    partitionCount: 2

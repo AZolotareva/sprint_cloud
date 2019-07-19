@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Processor
+
+server:
+  port: 8003
+
+spring.cloud.stream.bindings.words:
+  group: Processors
+  consumer:
+    instanceCount: 2
+    instanceIndex: 0

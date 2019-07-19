@@ -3,9 +3,10 @@ package com.luxoft.training.spring.cloud;
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
 
-public interface TestChannel {
-    String CHANNEL_NAME = "testChannel";
+public interface SubscriberChannel {
+    String UPPER_WORDS = "upperWords";
 
-    @Input(CHANNEL_NAME)
-    SubscribableChannel input();
+
+    @Input(UPPER_WORDS)
+    SubscribableChannel upperWords();
 }

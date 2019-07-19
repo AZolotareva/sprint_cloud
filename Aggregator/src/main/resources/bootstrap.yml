@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Aggregator
+
+server:
+  port: 8007
+
+spring.cloud.stream.bindings.input:
+  destination: wordNumSplit
+  group: Splitters
+
+spring.cloud.stream.bindings.output.destination: words
+
+spring.cloud.stream.bindings.words.group: Processors

@@ -11,5 +11,27 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@SpringBootApplication
+@EnableBinding(SubscriberChannel.class)
+@RestController
 public class Subscriber {
+    private Map<String, AtomicInteger> wordMap = new ConcurrentHashMap<>();
+
+    @GetMapping("/words")
+    public Map<String, AtomicInteger> getWords() {
+        return wordMap;
+    }
+
+    @StreamListener(SubscriberChannel.UPPER_WORDS)
+    public void countWords(String s) {
+        if (wordMap.containsKey(s)) {
+            wordMap.get(s).incrementAndGet();
+        } else {
+            wordMap.put(s, new AtomicInteger(1));
+        }
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(Subscriber.class, args);
+    }
 }

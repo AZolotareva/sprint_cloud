@@ -6,4 +6,12 @@ import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.SubscribableChannel;
 
 public interface ProcessorChannel {
+    String WORDS = "words";
+    String UPPER_WORDS = "upperWords";
+
+    @Input(WORDS)
+    SubscribableChannel words();
+
+    @Output(UPPER_WORDS)
+    MessageChannel upperWords();
 }
